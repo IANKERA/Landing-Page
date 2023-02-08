@@ -1,4 +1,57 @@
-.header-logo {
-    width: 75px;
+body {
+    background-color: #857037;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
     
-  }
+}
+
+
+.navbar{
+    display: flex;
+    background-color: darkcyan;
+    padding: 25px;
+    margin: 0px;
+   
+}
+
+.header-link{
+    display: flex;
+    margin-left: auto;
+
+}
+.header-link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Roboto', arial;
+}
+.header-title{
+    color: #E5E7EB;
+    display: inline;
+    background-color: #008b8b;
+
+}
+
+
+#home{
+    color: white;
+}
+
+.home-image{
+    display: flex;
+    /* border: 1px solid gold; */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:  10px 10px;
+}
+
+.summary{
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    background-color: #008b8b;
+    padding: 0 200px;
+}
